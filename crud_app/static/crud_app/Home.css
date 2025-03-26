@@ -1,0 +1,84 @@
+
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #f9f9f9;
+      }
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+        background: #fff;
+      }
+      thead {
+        background-color: #0412d6;
+        color: rgb(20, 212, 29);
+      } 
+      th,
+      td {
+        padding: 10px;
+        border: 1px solid #ddd;
+        text-align: center;
+      }
+      th {
+        background-color: #f2f2f2;
+      }
+      button {
+        padding: 8px 16px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #0056b3;
+      }
+      .form-container {
+        display: none;
+        background: white;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-top: 20px;
+      }
+      table #SerialNo {
+        /* background-color: red; */
+        margin-left: 0px;
+        padding-left: 0px;
+      }
+    
+      /* Reset styles for anchor tags */
+* a {
+  text-decoration: none; /* Removes underline */
+  color: inherit;       /* Uses the parent element's text color */
+}
+
+tr:hover {
+  background-color: #e97ee3;
+  /* color: red; */
+}
+/* Style for the table header */
+thead {
+  background-color: #3ec450; /* Light grey background */
+  color: #333; /* Dark text color */
+}
+
+thead th {
+  padding: 10px; /* Add padding for better spacing */
+  border-bottom: 2px solid #ccc; /* Optional border */
+}
+
+.S_table{
+  margin: auto;
+  text-align: center;
+  text-decoration: #007bff;
+  font-family: 'Courier New', Courier, monospace;
+  color: #007bff;
+}
