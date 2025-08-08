@@ -73,7 +73,7 @@
           <td>{{ student.course }}</td>
           <td>
             <button
-              onclick="window.location.href='{% url 'edit_student' student.id %}'"
+              onclick=window.location.href="{% url 'edit_student' student.id %}"
             >
               Edit
             </button>
